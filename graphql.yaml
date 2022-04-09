@@ -1,7 +1,7 @@
 version: '3'
 services:
   graphql-demo:
-    image: graphql-demo:1.0
+    image: patelakashkumareng/graphql-demo:1.0
     ports:
     - 3000:3000
     depends_on:
